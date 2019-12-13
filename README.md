@@ -1,8 +1,8 @@
 # liri-node-app
 # INSTRUCTIONS:
-  In the console/terminal, type one of the following commands:\  
-    * node liri.js concert-this\  
-    * node liri.js spotify-this-song\  
+  In the console/terminal, type one of the following commands: \
+    * node liri.js concert-this\
+    * node liri.js spotify-this-song\
     * node liri.js movie-this\
     
   Followed by the musician, song, or movie you'd like to search for:\
