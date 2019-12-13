@@ -1,4 +1,6 @@
-# liri-node-app | INSTRUCTIONS:
+# liri-node-app
+INSTRUCTIONS:
+
 In the console/terminal, type one of the following commands:
    * node liri.js concert-this
    * node liri.js spotify-this-song
