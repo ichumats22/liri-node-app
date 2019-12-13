@@ -1,7 +1,7 @@
 # liri-node-app
-# INSTRUCTIONS:/
-  In the console/terminal, type one of the following commands:/
-    * node liri.js concert-this/
+# INSTRUCTIONS:\
+  In the console/terminal, type one of the following commands:\
+    * node liri.js concert-this\
       * node liri.js spotify-this-song  
     * node liri.js movie-this  
     
