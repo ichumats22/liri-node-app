@@ -1,0 +1,141 @@
+
+      Have fun watching Blake Shelton live!
+      Venue: The Grand Theater - Choctaw Casino & Resort 
+        Location: Durant, United States 
+        Date: Jan 25, 2020
+      Venue: Bridgestone Arena 
+        Location: Nashville, United States 
+        Date: Feb 10, 2020
+      Venue: Moda Center 
+        Location: Portland, United States 
+        Date: Feb 13, 2020
+      Venue: Tacoma Dome 
+        Location: Tacoma, United States 
+        Date: Feb 14, 2020
+      Venue: Spokane Arena 
+        Location: Spokane, United States 
+        Date: Feb 15, 2020
+      Have fun watching Kings of Leon live!
+      Venue: Neuhausen Ob Eck 
+        Location: Neuhausen Ob Eck, Germany 
+        Date: Jun 19, 2020
+      Venue: Scheeßeler Mühle 
+        Location: Scheeßel, Germany 
+        Date: Jun 21, 2020
+      Venue: Espacio Mad Cool 
+        Location: Madrid, Spain 
+        Date: Jul 11, 2020
+      undefined
+      undefined
+      Have fun watching Dropkick Murphys live!
+      Venue: Wells Fargo Center 
+        Location: Philadelphia, United States 
+        Date: Dec 14, 2019
+      Venue: Palacio Vistalegre 
+        Location: Madrid, Spain 
+        Date: Jan 28, 2020
+      Venue: Le Rocher de Palmer 
+        Location: Cenon, France 
+        Date: Jan 29, 2020
+      Venue: Maimarkthalle 
+        Location: Mannheim, Germany 
+        Date: Jan 31, 2020
+      Venue: Ziggo Dome 
+        Location: Amsterdam Zuidoost, Netherlands 
+        Date: Feb 01, 2020
+      Have fun watching Fall Out Boy live!
+      Venue: Hella Mega Tour w/ Green Day, Fall Out Boy, Weezer + special guest 
+        Location: Paris, France 
+        Date: Jun 13, 2020
+      Venue: Hella Mega Tour w/ Green Day, Fall Out Boy, Weezer + special guest 
+        Location: Groningen, Netherlands 
+        Date: Jun 14, 2020
+      Venue: Hella Mega Tour w/ Green Day, Fall Out Boy, Weezer + special guest 
+        Location: Wilrijk, Belgium 
+        Date: Jun 17, 2020
+      Venue: Rock For People 
+        Location: Hradec Kralove, Czech Republic 
+        Date: Jun 19, 2020
+      Venue: Hella Mega Tour w/ Green Day, Fall Out Boy, Weezer + special guest 
+        Location: Wien, Austria 
+        Date: Jun 21, 2020
+      Have fun watching skdjlksjgd live!
+      undefined
+      undefined
+      undefined
+      undefined
+      undefinedArtist: The Beach Boys 
+      Song: Kokomo
+      Preview Link: null
+      Album: 50 Big Ones: Greatest HitsArtist: The Beach Boys
+      Album: 50 Big Ones: Greatest Hits
+      Song: Kokomo
+      Preview Link: nullArtist: The Beach Boys
+      Album: 50 Big Ones: Greatest Hits
+      Song: Kokomo
+      Preview Link: nullArtist: The Paper Kites
+      Album: Woodland - EP
+      Song: Bloom - Bonus Track
+      Preview Link: https://p.scdn.co/mp3-preview/4eff0d595f64fc2f8afa7cfe7b891c35f5f979b8?cid=1857c61e7d424faeae4eaf757b29790cSpotify Search Error Ocurred: ReferenceError: results is not definedSpotify Search Error Ocurred: ReferenceError: results is not definedSpotify Search Error Ocurred: ReferenceError: results is not definedSpotify Search Error Ocurred: SyntaxError: Unexpected token o in JSON at position 1Spotify Search Error Ocurred: TypeError: Cannot read property 'name' of undefinedSpotify Search Error Ocurred: TypeError: Cannot read property 'length' of undefinedSpotify Search Error Ocurred: TypeError: Cannot read property 'length' of undefined
+/
+      Song: Homemade Dynamite - REMIX
+        Artist Lorde 
+        Album: Melodrama 
+        Preview Link: null
+      Song: Homemade Dynamite
+        Artist Lorde 
+        Album: Melodrama 
+        Preview Link: null
+      Song: Homemade Dynamite
+        Artist Lorde 
+        Album: Melodrama 
+        Preview Link: null
+      Song: Homemade Dynamite (Feat. Khalid, Post Malone & SZA) - REMIX
+        Artist Lorde 
+        Album: Homemade Dynamite (Feat. Khalid, Post Malone & SZA) [REMIX] 
+        Preview Link: null
+      Song: Homemade Dynamite (Feat. Khalid, Post Malone & SZA) - REMIX
+        Artist Lorde 
+        Album: Homemade Dynamite (Feat. Khalid, Post Malone & SZA) [REMIX] 
+        Preview Link: null
+      undefined
+
+      Song: Homemade Dynamite - REMIX
+        Artist Lorde 
+        Album: Melodrama 
+        Preview Link: null
+      Song: Homemade Dynamite
+        Artist Lorde 
+        Album: Melodrama 
+        Preview Link: null
+      Song: Homemade Dynamite
+        Artist Lorde 
+        Album: Melodrama 
+        Preview Link: null
+      Song: Homemade Dynamite (Feat. Khalid, Post Malone & SZA) - REMIX
+        Artist Lorde 
+        Album: Homemade Dynamite (Feat. Khalid, Post Malone & SZA) [REMIX] 
+        Preview Link: null
+      Song: Homemade Dynamite (Feat. Khalid, Post Malone & SZA) - REMIX
+        Artist Lorde 
+        Album: Homemade Dynamite (Feat. Khalid, Post Malone & SZA) [REMIX] 
+        Preview Link: null
+      undefined
+
+      Title: The Lord of the Rings: The Fellowship of the Ring
+      Year: 2001
+      Country: New Zealand, USA
+      Language: English, Sindarin
+      Plot: A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.
+      Cast: Alan Howard, Noel Appleby, Sean Astin, Sala Baker
+      IMDB Rating: 8.8/10
+      Rotten Tomatoes Rating: 91%
+
+      Title: Fools Gold
+      Year: 2015
+      Country: UK
+      Language: English
+      Plot: Kayleigh is looking to take the leap of going self-employed with her somewhat reluctant husband Geoff. When the smooth-talking William comes for lunch, he offers them an offer that seems too good to be true...
+      Cast: Luke King Abbott, Louis John Brzozka, Jemma Carlin-Wells
+      IMDB Rating: Rating information not available
+      Rotten Tomatoes Rating: Rating information not available
