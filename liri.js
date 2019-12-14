@@ -8,6 +8,7 @@ var spotify = new Spotify(keys.spotify);
 var command = process.argv[2]
 
 var input = process.argv.slice(3).join(' ');
+
 var output = [];
 
 runLiri(command, input);
@@ -15,14 +16,29 @@ runLiri(command, input);
 function runLiri(command, input) {
   switch (command) {
     case 'concert-this':
-      runBandsInTown(input);
-      break;
+      if (input) { 
+        runBandsInTown(input);
+        break;
+      } else{ 
+        runBandsInTown('Paramore');
+        break;
+      }
     case 'spotify-this-song':
-      runSpotify(input);
-      break;
+      if (input) { 
+        runSpotify(input);
+        break;
+      } else{ 
+        runSpotify(`Don't Stop Me Now`);
+        break;
+      }
     case 'movie-this':
-      runOMDB(input);
-      break;
+      if (input) { 
+        runOMDB(input);
+        break;
+      } else{ 
+        runOMDB('Lord of the Rings');
+        break;
+      }  
     case 'do-what-it-says':
       runRandom(command, input);
       break;
