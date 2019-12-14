@@ -5,11 +5,12 @@ var moment = require('moment');
 var fs = require('fs');
 var Spotify = require('node-spotify-api');
 var spotify = new Spotify(keys.spotify);
-var command = process.argv[2]
+var command = process.argv[2];
 
 var input = process.argv.slice(3).join(' ');
 
 var output = [];
+var divider = "\n------------------------------------------------------------\n"
 
 runLiri(command, input);
 
@@ -46,7 +47,7 @@ function runLiri(command, input) {
 };
 
 function addToLog(output) {
-  fs.appendFile("log.txt", output, function(error) {
+  fs.appendFile("log.txt", output + divider, function(error) {
     if (error) {
       console.log(error);
     }
@@ -58,17 +59,19 @@ function runBandsInTown(input) {
   var request = require('request');
   request(`https://rest.bandsintown.com/artists/${input}/events?app_id=codingbootcamp`, function (error, response, body) {
     if (error) {
-      output = `Bands In Town Error: ${error}`, `statusCode: ${response && response.statusCode}`;
+output = `Bands In Town Error: ${error}`, `statusCode: ${response && response.statusCode}`;
       addToLog(output);
       console.log(output);
     }
     results = JSON.parse(body);
     if (results.length < 1) {
-      output = `We're sorry but it looks like ${input} does not currently have any shows scheduled. Please try another artist.`
+      output = `
+We're sorry but it looks like ${input} does not currently have any shows scheduled. Please try another artist.`
       addToLog(output);
       console.log(output);
     } else {
-      output.push(`Have fun watching ${input} live!`);
+      output.push(`
+Have fun watching ${input} live!`);
       console.log(`Have fun watching ${input} live!`);
       for (let i = 0; i < 5 && i < results.length; i++) {
         var venue = results[i].venue.name;
@@ -84,13 +87,14 @@ function runBandsInTown(input) {
         var date = eventDate
         
 
-        var event = `Venue: ${venue} 
-        Location: ${location} 
-        Date: ${date}`
+        var event = `
+Venue: ${venue} 
+Location: ${location} 
+Date: ${date}`
         output.push(event)
         console.log(event);
       } 
-      addToLog(`\n
+      addToLog(`
       ${output[0]}
       ${output[1]}
       ${output[2]}
@@ -104,16 +108,16 @@ function runBandsInTown(input) {
 function runSpotify(input) {
   spotify.search({type: 'track', query: input, limit: 1}, function (error, data) {
     if (error) {
-      output = `Spotify Search Error Ocurred: ${error}`;
+output = `Spotify Search Error Ocurred: ${error}`;
       addToLog(output);
       return console.log(output);
     } else {
       song = data.tracks.items[0];
-      output = `\n 
-      Title: ${song.name}
-      Artist: ${song.artists[0].name} 
-      Album: ${song.album.name} 
-      Preview Link: ${song.preview_url}`;
+      output = ` 
+Title: ${song.name}
+Artist: ${song.artists[0].name} 
+Album: ${song.album.name} 
+Preview Link: ${song.preview_url}`;
       addToLog(output);
       console.log(output);
     }
@@ -124,7 +128,7 @@ function runOMDB(input) {
   var request2 = require('request');
   request2(`http://www.omdbapi.com/?apikey=trilogy&t=${input}`, function (error, response, body) {
     if (error) {
-      output = `OMDB Error: ${error}`, `statusCode: ${response && response.statusCode}`;
+output = `OMDB Error: ${error}`, `statusCode: ${response && response.statusCode}`;
       addToLog(output);
       console.log(output);
     } else {
@@ -136,15 +140,15 @@ function runOMDB(input) {
         imdbRating = movie.Ratings[0].Value;
         rtRating = movie.Ratings[1].Value;
       }
-      output = `\n
-      Title: ${movie.Title}
-      Year: ${movie.Year}
-      Country: ${movie.Country}
-      Language: ${movie.Language}
-      Plot: ${movie.Plot}
-      Cast: ${movie.Actors}
-      IMDB Rating: ${imdbRating}
-      Rotten Tomatoes Rating: ${rtRating}`
+      output = `
+Title: ${movie.Title}
+Year: ${movie.Year}
+Country: ${movie.Country}
+Language: ${movie.Language}
+Plot: ${movie.Plot}
+Cast: ${movie.Actors}
+IMDB Rating: ${imdbRating}
+Rotten Tomatoes Rating: ${rtRating}`
       addToLog(output)
       console.log(output);
     }
