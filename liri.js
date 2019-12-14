@@ -34,9 +34,6 @@ function addToLog(output) {
     if (error) {
       console.log(error);
     }
-    else {
-      console.log("Log entry added");
-    }
   });
 }
 
@@ -77,7 +74,7 @@ function runBandsInTown(input) {
         output.push(event)
         console.log(event);
       } 
-      addToLog(`
+      addToLog(`\n
       ${output[0]}
       ${output[1]}
       ${output[2]}
@@ -89,28 +86,20 @@ function runBandsInTown(input) {
 };
 
 function runSpotify(input) {
-  spotify.search({type: 'track', query: input, limit: 5}, function (error, data) {
+  spotify.search({type: 'track', query: input, limit: 1}, function (error, data) {
     if (error) {
       output = `Spotify Search Error Ocurred: ${error}`;
       addToLog(output);
       return console.log(output);
     } else {
-      results = data.tracks.items
-      for (let i = 0; i < 5 && i < results.length; i++) {
-        song = data.tracks.items[i];
-        var resp = `Song: ${song.name}
-        Artist ${song.artists[0].name} 
-        Album: ${song.album.name} 
-        Preview Link: ${song.preview_url}`;
-        output.push(resp);
-        console.log(resp);
-      } 
-      addToLog(`\n
-      ${output[0]}
-      ${output[1]}
-      ${output[2]}
-      ${output[3]}
-      ${output[4]}`);
+      song = data.tracks.items[0];
+      output = `\n 
+      Title: ${song.name}
+      Artist: ${song.artists[0].name} 
+      Album: ${song.album.name} 
+      Preview Link: ${song.preview_url}`;
+      addToLog(output);
+      console.log(output);
     }
   });
 };
